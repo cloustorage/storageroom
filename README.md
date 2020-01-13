@@ -1,3 +1,3 @@
 # storageroom
 All things storage 
-{{help me}}
+say: help me 

@@ -15,23 +15,3 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-        
-     - name: SonarCloud Scan
-     - uses: SonarSource/sonarcloud-github-action@v1.1
-     - name: Setup Node.js for use with actions
-     - uses: actions/setup-node@v1.1.0
-
-
-- name: Setup Node.js for use with actions
-  uses: actions/setup-node@v1.1.0
-  with:
-    # Version Spec of the version to use.  Examples: 10.x, 10.15.1, >=10.15.0, lts
-    version: # optional, default is 10.x
-    # Optional registry to set up for auth. Will set the registry in a project level .npmrc and .yarnrc file, and set up auth to read in from env.NODE_AUTH_TOKEN
-    registry-url: # optional
-    # Optional scope for authenticating against scoped registries
-    scope: # optional
-    
-    - name: Environment Printer
-  uses: managedkaos/print-env@v1.0
-  https://github.com/managedkaos/print-env.git 
